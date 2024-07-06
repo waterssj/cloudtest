@@ -48,6 +48,8 @@ static int user_task_func(os_event_t *param)
 
 void user_task_init(void)
 {
+uint8_t i;
+    i++;
     user_task_id = os_task_create(user_task_func);
 }
 
